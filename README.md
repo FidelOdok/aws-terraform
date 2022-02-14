@@ -1,2 +1,3 @@
 # aws-terraform
-(Place holder). Deploy and configure AWS services using terraform.
+
+This is a terraform project created to deploy the AWS services to meet the objectives highlighted below:
