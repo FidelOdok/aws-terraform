@@ -32,7 +32,6 @@ module "vpc" {
 }
 
 #USERS
-
 resource "aws_iam_user" "ec2_user"{
   name = "ec2_user"
   path = "/users/"
