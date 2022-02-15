@@ -18,5 +18,13 @@ The are two terraform scripts each runs the from the different account folder "m
 Running terraform basic commands:
 
 * terraform init
-* terraform plan -var-file="var.tfvar"
-*  terraform apply -var-file="var.tfvar"
+* terraform plan -var-file="var.tfvars"
+* terraform apply -var-file="var.tfvars"
+
+How to run:
+
+* [ ] First run the terraform basic commands on the mainAccount directory. This will provision the nescesary services.
+* [ ] Before applying crosscheck the intended provisioning plan after the plan command then appy.
+* [ ] Run the terraform basic commands on the external Account to enable full provisioing of the resources.
+
+NB: The variables definition are stored in the "var.tfvars" file. Incude them as described above.
