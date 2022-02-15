@@ -4,6 +4,12 @@ variable "region" {
   type        = string
 }
 
+variable "environment" {
+  description = "The environment that is being deployed into"
+  default     = "dev"
+  type        = string
+}
+
 variable "profile" {
   description = "The AWS account profile to use to deploy the resources"
   default = "Account_one"
